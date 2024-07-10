@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-dark.css">
+    <title>Rest Countries Api App</title>
+</head>
+<body>
+    <div class="header">
+        <h2>Where in the world?</h2>
+        <div class = "dark"><img src="icons/moon.svg" width = "18px" height = "18px"><span style = "padding-top: 1px;">Dark Mode</span></div>
+    </div>
+    <div class = "main">
+        <div class="search">
+            <form action="">
+                <input type="search" placeholder="Search for a country..." class = "filter">
+            </form>
+            <select name="region-names" id="region-names">
+                <option selected value = "All">All</option>
+                <option value="Africa">Africa</option>
+                <option value="Americas">America</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+        </div>
+        <div class="countries">
+
+        </div>
+
+    </div>
+
+    <div class="flagInfo" style="display: none;">
+        
+    </div>
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/cbf5fdc37d.js" crossorigin="anonymous"></script>
+</body>
+</html>
